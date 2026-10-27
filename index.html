@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="pageTitle">Lazy Bear Club - SPA, lielā zāle un veselības centrs, Rēzekne</title>
+<meta name="description" content="Lazy Bear Club Rēzeknes centrā, Rīgas ielā 1B: SPA ar baseinu, divām saunām un infrasarkano pirti atpūtai un svinībām, lielā zāle pasākumiem un veselības centrs ar telpām speciālistiem.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231E1915'/%3E%3Ccircle cx='18' cy='19' r='8' fill='%23F0BE84'/%3E%3Ccircle cx='46' cy='19' r='8' fill='%23F0BE84'/%3E%3Ccircle cx='18' cy='19' r='3.6' fill='%231E1915'/%3E%3Ccircle cx='46' cy='19' r='3.6' fill='%231E1915'/%3E%3Cellipse cx='32' cy='36' rx='20' ry='18' fill='%23F0BE84'/%3E%3Cpath d='M22 33 q3 3 6 0 M36 33 q3 3 6 0' fill='none' stroke='%231E1915' stroke-width='2.4' stroke-linecap='round'/%3E%3Cellipse cx='32' cy='44' rx='8' ry='6' fill='%23FFF1DF'/%3E%3Cellipse cx='32' cy='41.5' rx='3.4' ry='2.4' fill='%231E1915'/%3E%3C/svg%3E">
+<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEPklEQVR4nMSXf2yTRRjHv9ef27p2Xbd3axeoLVN0k/0gU1YdiJtMUPjDAQGiUYEQXdQQSUyIidFgTCYJCfzhH/4B8oc/okjAABH8gRicCsbpqNuAuGWLq9j9tHRb13Zl591hm7V933WVUT/J9e6e557nuT7vve/daTADM8OUpdlFCXERimoQFGE+oBikBO2E0gv+YGS/jxFVkWhjgVV6jIAeJISU4DZCKb1GQXZ4vEOnYxNYaLOsJlCfQQaZpnicT4LY8/Lyka3tBCE2ZBCRiUC4QoMc7bMsERkNzuGPmhh0z2gohYsQuQFA7b12lC6wiH6PZxQXO/9gM0/leO52PLaGjXclKszGLLy7+wmUO4vj5F29A2je+xl8Y0HZ4Ona8djqPKNhf6KjV55agYdrSkV75PoEJkNTyMnSQcrPhYHV59v7ZCeQth0hZpWco7oqh6iPfvMbVr10SBTenqmbLzuNnLAwL0fUn3zlxo3pmw/v+Led2NiwBEVmA17c+ADKnBLKHEX8I4OuvkFcZoXruCDZriLmMxHZDAxfD4h6c2Ml1CoiSvP6WuabQKtV4/mmZXio2gmJBZTyDVi51Inmplqh42Ne2OCK2W1aVRnnMxFit0lJ6/O1bfUxw1F/gD0/LfQ6LdIhFJ7CRDAMi8kg+ke+duOtw+cwpwy8c/RHsXI5FlNO2sE53CYanPviPuWQzYBQsHfk5S3LsW1dDW6Fw6facODjVsXvh0rJsMwhYUtjBW4V7mORzaKoV5zAhvolyNbrYv2xQAjjk+Gkdiod9/HkmiqlMPKvIefuO6S4/qETP+NcWw/WuBbj8x+uorH2TuzcVJdSx3GU/IcMOBLStp2tBSdz9P7pX7DYXoita2vmpOM4bflKYZQzEJ6KsF99rG/KzcKBXetkx86mS4ViBtzdXnkFUUFfdA9Cxctw8opGFN7mMq5LyxdmyQA3arivNEmeVVIFvbUce15vwUdHjgtZ59UmtLz5Kog2G8E/f5X1pYRiBk5+1wX/ePK2qytwinr5g/dDKiwQpWFlXZxuJkO+CZw436UURvlDxHmUreZ9O9fGyUyV68U/lYNOTcLvPhYne67lGC509EMJxQxwvrzYjU/PuuNk4ZFexfGJOm47W/CUE+Ds+6AV/QN/x/rBa5cQ7G/DjYkhIBIWhbe5jOuieAZ9wjYVxG6VvOxsVJxqYPVdNryx4xF21iuYdVyPZwR7Dp5F++9/ISUUA2ShTTrD9p3VmAN8f19R7UD5omJxGCnnBxJmzA8jl3uH0NHjReulvthhJHV8fMEz8DZzshv/BxR7idVqduiIhr28xIyMQn1hGlmq8np9fdOg25Fh6DTdymOrecc/PnnFmGv4iYnr2Y3FiNvIv5fTzZ6B4VO8r44q/OOBbpVG955eowqz63mIXc+NbG0YMB/cvJ5/z67nH44FI08PDo92RFX/AAAA//9vKvXHAAAABklEQVQDAOujvWKe9Z7vAAAAAElFTkSuQmCC">
+<link rel="apple-touch-icon" sizes="180x180" href="data:image/png;base64,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">
+<script>
+  (function(){
+    var d = document.documentElement;
+    d.classList.add('js');
+    var t = 'light';
+    try{ if(localStorage.getItem('lbc-theme') === 'dark') t = 'dark'; }catch(e){}
+    d.setAttribute('data-theme', t);
+  })();
+</script>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F7F2EA;
+    --panel:#EFE6D8;
+    --card:#FFFDF9;
+    --ink:#1E1915;
+    --ink-soft:#6B5E52;
+    --line:rgba(30,25,21,.14);
+    --honey:#B5702F;
+    --honey-hover:#96591F;
+    --on-honey:#FFF8EF;
+    --deep:#1E1915;
+    --shadow:0 26px 50px -32px rgba(60,38,18,.45);
+    --font-head:'DM Serif Display',Georgia,'Times New Roman',serif;
+    --font-body:'Nunito Sans','Segoe UI',system-ui,-apple-system,'Helvetica Neue',sans-serif;
+    --maxw:1180px;
+    --fade:.25s;
+    --fade-theme:.45s;
+    color-scheme: light;
+  }
+  :root[data-theme="dark"]{
+    --bg:#141110;
+    --panel:#1B1714;
+    --card:#221D19;
+    --ink:#F3EBDF;
+    --ink-soft:#B9AC9C;
+    --line:rgba(243,235,223,.13);
+    --honey:#E09A55;
+    --honey-hover:#EDB073;
+    --on-honey:#1A120A;
+    --deep:#0E0C0B;
+    --shadow:0 26px 50px -32px rgba(0,0,0,.9);
+    color-scheme: dark;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important;transition-delay:0s !important;}
+  }
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16.5px;line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden;transition:background-color var(--fade-theme) ease,color var(--fade-theme) ease;}
+  img,svg{max-width:100%;display:block;}
+  a{color:inherit;text-decoration:none;transition:color var(--fade) ease,background-color var(--fade) ease,border-color var(--fade) ease,opacity var(--fade) ease;}
+  h1,h2,h3,h4{font-family:var(--font-head);font-weight:400;margin:0;color:var(--ink);line-height:1.08;transition:color var(--fade-theme) ease;}
+  h1 em,h2 em{font-style:italic;color:var(--honey);transition:color var(--fade-theme) ease;}
+  p{margin:0;}
+  ul{margin:0;padding:0;list-style:none;}
+  button{font-family:inherit;cursor:pointer;transition:color var(--fade) ease,background-color var(--fade) ease,border-color var(--fade) ease,opacity var(--fade) ease;}
+  :focus-visible{outline:2px solid var(--honey);outline-offset:3px;}
+  section[id]{scroll-margin-top:84px;}
+
+  .skip-link{position:absolute;left:-9999px;top:0;background:var(--honey);color:var(--on-honey);padding:.75rem 1.25rem;z-index:300;border-radius:0 0 8px 0;font-weight:700;}
+  .skip-link:focus{left:0;}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 clamp(1.25rem,4vw,3rem);}
+
+  .kicker{font-size:.76rem;font-weight:800;color:var(--honey);letter-spacing:.22em;text-transform:uppercase;display:inline-flex;align-items:center;gap:.6rem;transition:color var(--fade-theme) ease;}
+  .kicker svg{width:1.05rem;height:1.05rem;}
+
+  /* header */
+  header{position:sticky;top:0;z-index:200;background:color-mix(in srgb, var(--bg) 88%, transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);transition:background-color var(--fade-theme) ease,border-color var(--fade-theme) ease;}
+  .nav-row{display:flex;align-items:center;gap:1.5rem;padding-top:.5rem;padding-bottom:.5rem;}
+  .brand{display:flex;align-items:center;flex:none;}
+  .brand-logo{height:54px;width:auto;display:block;transition:filter var(--fade-theme) ease;}
+  [data-theme="dark"] .brand-logo{filter:invert(1);}
+  nav.primary{display:flex;align-items:center;justify-content:center;gap:2rem;flex:1;}
+  nav.primary a{font-size:.92rem;font-weight:700;color:var(--ink-soft);position:relative;padding:.2rem 0;white-space:nowrap;}
+  nav.primary a:hover{color:var(--ink);}
+  nav.primary a::after{content:"";position:absolute;left:50%;bottom:-8px;width:6px;height:6px;margin-left:-3px;border-radius:50%;background:var(--honey);opacity:0;transition:opacity var(--fade) ease;}
+  nav.primary a:hover::after{opacity:1;}
+  .header-actions{display:flex;align-items:center;gap:.75rem;margin-left:auto;}
+
+  .lang-switch{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;transition:border-color var(--fade-theme) ease;}
+  .lang-switch button{background:none;border:none;padding:.4rem .65rem;font-size:.72rem;font-weight:800;letter-spacing:.06em;color:var(--ink-soft);transition:background-color var(--fade) ease,color var(--fade) ease;}
+  .lang-switch button:hover{color:var(--ink);background:color-mix(in srgb, var(--honey) 12%, transparent);}
+  .lang-switch button[aria-pressed="true"]{background:var(--ink);color:var(--bg);}
+
+  .icon-btn{width:2.3rem;height:2.3rem;border-radius:50%;border:1px solid var(--line);background:none;display:flex;align-items:center;justify-content:center;color:var(--ink-soft);flex:none;transition:border-color var(--fade) ease,color var(--fade) ease,background-color var(--fade) ease;}
+  .icon-btn:hover{border-color:var(--honey);color:var(--honey);}
+  .icon-btn svg{width:1.05rem;height:1.05rem;}
+
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;padding:.85rem 1.6rem;border-radius:999px;font-weight:800;font-size:.9rem;letter-spacing:.02em;border:1px solid transparent;transition:background-color var(--fade) ease,color var(--fade) ease,border-color var(--fade) ease,box-shadow var(--fade) ease;white-space:nowrap;cursor:pointer;font-family:var(--font-body);}
+  .btn svg{width:1rem;height:1rem;flex:none;}
+  .btn-solid{background:var(--honey);color:var(--on-honey);box-shadow:0 14px 26px -16px rgba(181,112,47,.85);}
+  .btn-solid:hover{background:var(--honey-hover);box-shadow:0 18px 30px -16px rgba(181,112,47,.95);}
+  .btn-line{background:transparent;color:var(--ink);border-color:var(--line);}
+  .btn-line:hover{background:var(--panel);border-color:var(--honey);}
+  .btn-sm{padding:.6rem 1.15rem;font-size:.82rem;}
+  .hero .btn-line,.book .btn-line{color:#fff;border-color:rgba(255,255,255,.42);}
+  .hero .btn-line:hover,.book .btn-line:hover{background:rgba(255,255,255,.12);border-color:#fff;}
+
+  .menu-toggle{display:none;width:2.6rem;height:2.6rem;border-radius:50%;border:1px solid var(--line);background:none;position:relative;flex:none;transition:border-color var(--fade) ease,background-color var(--fade) ease;}
+  .menu-toggle:hover{border-color:var(--honey);}
+  .menu-toggle i{position:absolute;left:50%;top:50%;width:18px;height:2px;margin-left:-9px;background:var(--ink);border-radius:2px;transition:transform .35s ease,opacity .25s ease,background-color var(--fade) ease;}
+  .menu-toggle i:nth-child(1){transform:translateY(-6px);}
+  .menu-toggle i:nth-child(3){transform:translateY(6px);}
+  .menu-toggle:hover i{background:var(--honey);}
+  .menu-toggle[aria-expanded="true"] i:nth-child(1){transform:rotate(45deg);}
+  .menu-toggle[aria-expanded="true"] i:nth-child(2){opacity:0;}
+  .menu-toggle[aria-expanded="true"] i:nth-child(3){transform:rotate(-45deg);}
+
+  /* mobile + tablet menu */
+  .mobile-nav{position:fixed;inset:0;z-index:190;background:var(--bg);display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:.35rem;padding:6rem clamp(1.5rem,6vw,4rem) 2.5rem;overflow-y:auto;
+    visibility:hidden;pointer-events:none;clip-path:circle(0px at calc(100% - 2.6rem) 2.4rem);
+    transition:clip-path .75s cubic-bezier(.7,0,.2,1),visibility 0s linear .75s,background-color var(--fade-theme) ease;}
+  .mobile-nav.open{visibility:visible;pointer-events:auto;clip-path:circle(160% at calc(100% - 2.6rem) 2.4rem);
+    transition:clip-path .75s cubic-bezier(.7,0,.2,1),visibility 0s linear 0s,background-color var(--fade-theme) ease;}
+  .m-link{font-family:var(--font-head);font-size:clamp(2.2rem,7.5vw,3.1rem);line-height:1.15;color:var(--ink);padding:.15rem 0;opacity:0;transform:translateY(16px);transition:opacity .45s ease,transform .45s ease,color var(--fade) ease;}
+  .m-link:hover{color:var(--honey);}
+  .mobile-nav.open .m-link,.mobile-nav.open .m-extra{opacity:1;transform:none;transition-delay:calc(.3s + var(--i,0) * .07s);}
+  .mobile-nav.open .m-link:hover{transition-delay:0s;}
+  .m-extra{margin-top:1.4rem;display:flex;flex-wrap:wrap;gap:.9rem;align-items:center;opacity:0;transform:translateY(16px);transition:opacity .45s ease,transform .45s ease;}
+  .m-contact{margin-top:1.6rem;color:var(--ink-soft);font-size:.92rem;opacity:0;transform:translateY(16px);transition:opacity .45s ease,transform .45s ease;}
+  .mobile-nav.open .m-contact{opacity:1;transform:none;transition-delay:.85s;}
+  .m-contact a{color:var(--ink);font-weight:700;}
+  .m-contact a:hover{color:var(--honey);}
+
+  /* hero */
+  .hero{position:relative;overflow:hidden;min-height:clamp(620px,94vh,880px);display:flex;align-items:flex-end;padding:clamp(5rem,10vw,8rem) 0 clamp(3.5rem,7vw,5.5rem);background:#17120E;}
+  .hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;background:linear-gradient(160deg,#17120E,#4A3220);}
+  .hero-overlay{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(23,16,10,.4) 0%,rgba(23,16,10,.5) 45%,rgba(23,16,10,.9) 100%),linear-gradient(90deg,rgba(23,16,10,.6),rgba(23,16,10,0) 70%);}
+  .hero .wrap{position:relative;z-index:2;width:100%;}
+  .hero-copy{max-width:44rem;}
+  .hero-copy .kicker{color:#F0BE84;}
+  .hero-copy h1{color:#fff;font-size:clamp(3rem,7.4vw,6.2rem);line-height:.98;margin:1rem 0 1.3rem;}
+  .hero-copy h1 em{color:#F0BE84;}
+  .hero-copy p.lede{font-size:clamp(1.02rem,1.5vw,1.18rem);color:rgba(255,255,255,.88);max-width:50ch;margin-bottom:2rem;}
+  .hero-ctas{display:flex;flex-wrap:wrap;gap:1rem;}
+  .hero-pause{position:absolute;right:clamp(1.25rem,4vw,3rem);top:1.6rem;z-index:3;width:2.6rem;height:2.6rem;border-radius:50%;border:1px solid rgba(255,255,255,.4);background:rgba(23,16,10,.45);color:#fff;display:flex;align-items:center;justify-content:center;transition:border-color var(--fade) ease,background-color var(--fade) ease;}
+  .hero-pause:hover{border-color:#fff;background:rgba(23,16,10,.75);}
+  .hero-pause svg{width:1rem;height:1rem;}
+
+  /* strip */
+  .strip{background:var(--card);border-bottom:1px solid var(--line);transition:background-color var(--fade-theme) ease,border-color var(--fade-theme) ease;}
+  .strip .wrap{display:grid;grid-template-columns:repeat(4,1fr);}
+  .s-item{display:flex;align-items:center;gap:.85rem;padding:1.25rem 1rem;border-left:1px solid var(--line);font-weight:700;font-size:.95rem;transition:border-color var(--fade-theme) ease;}
+  .s-item:first-child{border-left:none;padding-left:0;}
+  .s-ic{width:2.6rem;height:2.6rem;border-radius:50%;background:color-mix(in srgb, var(--honey) 14%, transparent);color:var(--honey);display:flex;align-items:center;justify-content:center;flex:none;}
+  .s-ic svg{width:1.3rem;height:1.3rem;}
+
+  section{padding:clamp(3.8rem,8.5vw,7rem) 0;transition:background-color var(--fade-theme) ease;}
+  .section-head{max-width:62ch;margin-bottom:clamp(2.2rem,4vw,3rem);}
+  .section-head h2,.big-title{font-size:clamp(2.3rem,4.6vw,3.7rem);margin:.8rem 0 1rem;}
+  .section-head p,.text{color:var(--ink-soft);font-size:1.05rem;}
+  .text{max-width:56ch;margin-bottom:1rem;}
+  .panel{background:var(--panel);}
+
+  /* spaces */
+  .spaces{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;}
+  .space{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:1.8rem 1.7rem;position:relative;overflow:hidden;transition:box-shadow .35s ease,border-color .35s ease,background-color var(--fade-theme) ease;}
+  .space:hover{box-shadow:var(--shadow);border-color:color-mix(in srgb, var(--honey) 55%, transparent);}
+  .space .no{font-family:var(--font-head);font-style:italic;font-size:1.05rem;color:var(--honey);}
+  .space-ic{width:3.4rem;height:3.4rem;border-radius:50%;border:1px solid var(--honey);color:var(--honey);display:flex;align-items:center;justify-content:center;margin:1rem 0 1.1rem;transition:background-color var(--fade) ease,color var(--fade) ease;}
+  .space:hover .space-ic{background:var(--honey);color:var(--on-honey);}
+  .space-ic svg{width:1.6rem;height:1.6rem;}
+  .space h3{font-size:1.9rem;margin-bottom:.45rem;}
+  .space p{color:var(--ink-soft);font-size:.96rem;flex:1;}
+  .space .more{margin-top:1.2rem;font-weight:800;font-size:.86rem;color:var(--honey);display:inline-flex;align-items:center;gap:.4rem;}
+  .space .more svg{width:1rem;height:1rem;}
+
+  /* spa */
+  .spa{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(2rem,5vw,4rem);align-items:start;}
+  .amen{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.8rem;}
+  .am{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:1.3rem 1.3rem 1.2rem;transition:box-shadow .35s ease,border-color .35s ease,background-color var(--fade-theme) ease;}
+  .am:hover{box-shadow:var(--shadow);border-color:color-mix(in srgb, var(--honey) 55%, transparent);}
+  .am svg{width:1.7rem;height:1.7rem;color:var(--honey);margin-bottom:.7rem;}
+  .am h3{font-size:1.35rem;margin-bottom:.2rem;}
+  .am p{font-size:.9rem;color:var(--ink-soft);}
+  .book{background:var(--deep);color:#F7F2EA;border-radius:26px;padding:clamp(1.9rem,4vw,3rem);position:relative;overflow:hidden;box-shadow:var(--shadow);transition:background-color var(--fade-theme) ease;}
+  .book .kicker{color:#F0BE84;}
+  .book h3{color:#F7F2EA;font-size:clamp(1.9rem,3.2vw,2.6rem);margin:.8rem 0 .9rem;}
+  .book .num{display:inline-block;font-family:var(--font-head);font-size:clamp(2.2rem,4.6vw,3.2rem);line-height:1.05;color:#F7F2EA;margin-bottom:.8rem;transition:color var(--fade) ease;}
+  .book .num:hover{color:#F0BE84;}
+  .book p{color:rgba(247,242,234,.75);font-size:.98rem;max-width:40ch;margin-bottom:1.4rem;}
+  .book .btn-row{position:relative;z-index:1;}
+  .book .bear-wm{position:absolute;right:-30px;bottom:-40px;width:200px;height:200px;color:rgba(247,242,234,.06);}
+  .occ{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.3rem;}
+  .occ li{font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.35rem .85rem;border:1px solid var(--line);border-radius:999px;color:var(--ink-soft);transition:border-color var(--fade-theme) ease;}
+
+  /* hall */
+  .hall{display:grid;grid-template-columns:.95fr 1.05fr;gap:clamp(2rem,5vw,4rem);align-items:center;}
+  .hall-art{position:relative;border-radius:26px;background:var(--card);border:1px solid var(--line);aspect-ratio:4/3;overflow:hidden;display:flex;align-items:center;justify-content:center;transition:background-color var(--fade-theme) ease,border-color var(--fade-theme) ease;}
+  .hall-art svg{width:78%;color:var(--honey);}
+  .hall-art .tag{position:absolute;left:1.2rem;top:1.2rem;font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;background:var(--ink);color:var(--bg);padding:.35rem .8rem;border-radius:999px;transition:background-color var(--fade-theme) ease,color var(--fade-theme) ease;}
+
+  /* health */
+  .specs{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-bottom:2rem;}
+  .spec{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:1.4rem 1.3rem;transition:box-shadow .35s ease,border-color .35s ease,background-color var(--fade-theme) ease;}
+  .spec:hover{box-shadow:var(--shadow);border-color:color-mix(in srgb, var(--honey) 55%, transparent);}
+  .spec b{display:block;font-family:var(--font-head);font-weight:400;font-size:clamp(2rem,3.4vw,2.6rem);line-height:1;color:var(--honey);margin-bottom:.35rem;transition:color var(--fade-theme) ease;}
+  .spec span{font-size:.9rem;color:var(--ink-soft);}
+  .feat-list{display:grid;grid-template-columns:1fr 1fr;gap:.2rem 2.2rem;border-top:1px solid var(--line);transition:border-color var(--fade-theme) ease;}
+  .feat-list li{display:flex;gap:.8rem;align-items:flex-start;padding:.95rem 0;border-bottom:1px solid var(--line);font-size:.97rem;transition:border-color var(--fade-theme) ease;}
+  .feat-list svg{width:1.25rem;height:1.25rem;color:var(--honey);flex:none;margin-top:.2rem;}
+  .who{display:flex;flex-wrap:wrap;gap:.6rem;margin:1.4rem 0 0;}
+  .who li{display:inline-flex;align-items:center;gap:.5rem;font-weight:700;font-size:.9rem;padding:.5rem 1rem;border-radius:999px;background:var(--card);border:1px solid var(--line);transition:background-color var(--fade-theme) ease,border-color var(--fade-theme) ease;}
+  .who li svg{width:1rem;height:1rem;color:var(--honey);}
+  .health-cta{margin-top:2rem;display:flex;flex-wrap:wrap;gap:.8rem;align-items:center;}
+
+  /* contact */
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,5vw,4.5rem);align-items:stretch;}
+  .info-list{border-top:1px solid var(--line);margin-bottom:1.6rem;transition:border-color var(--fade-theme) ease;}
+  .info-item{display:grid;grid-template-columns:8rem 1fr;gap:1rem;padding:1.05rem 0;border-bottom:1px solid var(--line);transition:border-color var(--fade-theme) ease;}
+  .info-item .label{font-size:.72rem;font-weight:800;color:var(--honey);letter-spacing:.16em;text-transform:uppercase;padding-top:.3rem;}
+  .info-item .value a{font-weight:700;}
+  .info-item .value a:hover{color:var(--honey);}
+  .btn-row{display:flex;flex-wrap:wrap;gap:.8rem;}
+  .map-card{border-radius:26px;overflow:hidden;border:1px solid var(--line);background:var(--card);box-shadow:var(--shadow);display:flex;flex-direction:column;transition:background-color var(--fade-theme) ease,border-color var(--fade-theme) ease;}
+  .map-art{position:relative;flex:1;min-height:260px;background:var(--panel);overflow:hidden;transition:background-color var(--fade-theme) ease;}
+  .map-art svg.streets{position:absolute;inset:0;width:100%;height:100%;color:var(--ink);}
+  .map-pin{position:absolute;left:50%;top:48%;transform:translate(-50%,-100%);width:3.4rem;height:3.4rem;border-radius:50% 50% 50% 0;rotate:-45deg;background:var(--honey);display:flex;align-items:center;justify-content:center;box-shadow:0 10px 20px -8px rgba(0,0,0,.4);transition:background-color var(--fade-theme) ease;}
+  .map-pin svg{width:1.6rem;height:1.6rem;rotate:45deg;color:var(--on-honey);}
+  .map-body{padding:1.4rem 1.6rem;display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;}
+  .map-body h3{font-size:1.6rem;line-height:1.1;}
+  .map-body p{font-size:.9rem;color:var(--ink-soft);}
+
+  /* footer */
+  footer{background:var(--panel);color:var(--ink);border-top:1px solid var(--line);transition:background-color var(--fade-theme) ease,color var(--fade-theme) ease,border-color var(--fade-theme) ease;}
+  .footer-main{padding-top:3rem;padding-bottom:2rem;}
+  .footer-grid{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:2rem;padding-bottom:2rem;border-bottom:1px solid var(--line);transition:border-color var(--fade-theme) ease;}
+  .footer-brand .brand-logo{height:72px;}
+  .footer-brand p{max-width:34ch;font-size:.9rem;color:var(--ink-soft);margin-top:1rem;}
+  .footer-links{display:flex;gap:3rem;flex-wrap:wrap;}
+  .footer-links h4{font-family:var(--font-body);font-size:.72rem;font-weight:800;letter-spacing:.18em;text-transform:uppercase;margin-bottom:.9rem;}
+  .footer-links a,.footer-links span{display:block;color:var(--ink-soft);font-size:.92rem;margin-bottom:.5rem;}
+  .footer-links a:hover{color:var(--honey);}
+  .footer-bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem;padding-top:1.5rem;font-size:.82rem;color:var(--ink-soft);align-items:center;}
+  .footer-lang{display:flex;gap:.5rem;}
+  .footer-lang button{background:none;border:1px solid var(--line);color:var(--ink);padding:.3rem .65rem;border-radius:999px;font-size:.72rem;font-weight:800;transition:background-color var(--fade) ease,border-color var(--fade) ease,color var(--fade) ease;}
+  .footer-lang button:hover{border-color:var(--honey);}
+  .footer-lang button[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg);}
+
+  /* reveal */
+  .js .reveal{opacity:0;transform:translateY(16px);transition:opacity .8s ease,transform .8s ease,background-color var(--fade-theme) ease,border-color var(--fade-theme) ease,color var(--fade-theme) ease;}
+  .js .reveal.in{opacity:1;transform:none;}
+  @media (prefers-reduced-motion: reduce){ .js .reveal{opacity:1;transform:none;} }
+
+  @media (max-width:1199px){ nav.primary{gap:1.25rem;} .nav-row{gap:1rem;} }
+  /* tablet */
+  @media (max-width:1023px){
+    nav.primary{display:none;}
+    .menu-toggle{display:block;}
+    .header-actions .btn{display:none;}
+    .strip .wrap{grid-template-columns:1fr 1fr;}
+    .s-item{border-left:none;padding-left:0;border-top:1px solid var(--line);}
+    .s-item:nth-child(-n+2){border-top:none;}
+    .spaces{grid-template-columns:1fr;}
+    .spa,.hall,.contact-grid{grid-template-columns:1fr;}
+    .specs{grid-template-columns:1fr 1fr;}
+    .hall-art{max-width:560px;}
+  }
+  /* mobile */
+  @media (max-width:640px){
+    .lang-switch{display:none;}
+    .brand-logo{height:46px;}
+    .nav-row{gap:.75rem;}
+    .strip .wrap{grid-template-columns:1fr 1fr;}
+    .s-item{font-size:.86rem;gap:.6rem;padding:1rem 0;}
+    .s-ic{width:2.2rem;height:2.2rem;}
+    .amen{grid-template-columns:1fr;}
+    .feat-list{grid-template-columns:1fr;}
+    .info-item{grid-template-columns:1fr;gap:.2rem;}
+    .footer-grid{flex-direction:column;}
+    .hero-ctas .btn{width:100%;}
+  }
+  @media (max-width:380px){
+    .brand-logo{height:40px;}
+    .specs{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main" data-i18n="skip">Pāriet uz saturu</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <g id="ic-paw"><ellipse cx="12" cy="16" rx="5" ry="4" fill="currentColor"/><ellipse cx="6" cy="10.5" rx="2" ry="2.6" fill="currentColor"/><ellipse cx="10" cy="7" rx="2" ry="2.6" fill="currentColor"/><ellipse cx="14" cy="7" rx="2" ry="2.6" fill="currentColor"/><ellipse cx="18" cy="10.5" rx="2" ry="2.6" fill="currentColor"/></g>
+    <g id="ic-pool"><path d="M3 16c1.5 1.2 3 1.2 4.5 0s3-1.2 4.5 0 3 1.2 4.5 0 3-1.2 4.5 0M3 20c1.5 1.2 3 1.2 4.5 0s3-1.2 4.5 0 3 1.2 4.5 0 3-1.2 4.5 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M8 14V5a2 2 0 0 1 4 0M16 14V5a2 2 0 0 1 4 0M8 8h8M8 11.5h8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></g>
+    <g id="ic-sauna"><path d="M4 21V10l8-6 8 6v11Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 15c0-1 1-1.4 1-2.4M12 15c0-1 1-1.4 1-2.4M15 15c0-1 1-1.4 1-2.4M7 18h10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></g>
+    <g id="ic-ir"><circle cx="12" cy="12" r="3.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 3v2.5M12 18.5V21M3 12h2.5M18.5 12H21M5.6 5.6l1.8 1.8M16.6 16.6l1.8 1.8M5.6 18.4l1.8-1.8M16.6 7.4l1.8-1.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></g>
+    <g id="ic-guests"><circle cx="8" cy="8" r="3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="16.5" cy="9" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M2.5 20c.5-3.3 2.6-5.2 5.5-5.2s5 1.9 5.5 5.2M14 14.6c2.8-.3 5 1.4 5.6 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></g>
+    <g id="ic-hall"><rect x="3" y="4" width="18" height="11" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 15v3M7 21h10M7.5 9.5h9M7.5 12h5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></g>
+    <g id="ic-health"><rect x="3.5" y="3.5" width="17" height="17" rx="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 7.5v9M7.5 12h9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></g>
+    <g id="ic-check"><path d="m5 12.5 4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <g id="ic-phone"><path d="M7 3h3l1.5 4L9.5 8.5c.8 2.3 2.7 4.2 5 5l1.5-2L20 13v3a2 2 0 0 1-2.2 2C11.5 17.6 6.4 12.5 5.9 6.2A2 2 0 0 1 7 3Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></g>
+    <g id="ic-pin"><path d="M12 21s-7-7.2-7-12a7 7 0 1 1 14 0c0 4.8-7 12-7 12Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="12" cy="9" r="2.4" fill="none" stroke="currentColor" stroke-width="1.6"/></g>
+    <g id="ic-fb"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.7c0-.9.3-1.5 1.6-1.5h1.5V4.5c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2.3H8.2v3h2.5V21" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></g>
+    <g id="ic-ig"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4.3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></g>
+    <g id="ic-arrow"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <g id="ic-sun"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.5"/><g stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="12" y1="2.5" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="21.5"/><line x1="2.5" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="21.5" y2="12"/><line x1="5.1" y1="5.1" x2="6.8" y2="6.8"/><line x1="17.2" y1="17.2" x2="18.9" y2="18.9"/><line x1="5.1" y1="18.9" x2="6.8" y2="17.2"/><line x1="17.2" y1="6.8" x2="18.9" y2="5.1"/></g></g>
+    <g id="ic-moon"><path d="M20 14.2A8.2 8.2 0 1 1 9.8 4a6.6 6.6 0 0 0 10.2 10.2Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></g>
+    <g id="ic-pause"><rect x="6" y="4.5" width="4.5" height="15" rx="1" fill="currentColor"/><rect x="13.5" y="4.5" width="4.5" height="15" rx="1" fill="currentColor"/></g>
+    <g id="ic-play"><path d="M6 4.5v15l14-7.5z" fill="currentColor"/></g>
+    <g id="bear-head"><circle cx="5" cy="5" r="3.6" fill="currentColor"/><circle cx="19" cy="5" r="3.6" fill="currentColor"/><ellipse cx="12" cy="12.5" rx="9.5" ry="8.5" fill="currentColor"/></g>
+  </defs>
+</svg>
+
+<a id="home"></a>
+<header>
+  <div class="wrap nav-row">
+    <a class="brand" href="#home" aria-label="Lazy Bear Club">
+      <img src="logo.svg" alt="Lazy Bear Club" class="brand-logo" width="162" height="54">
+    </a>
+    <nav class="primary" aria-label="Primary">
+      <a href="#spa" data-i18n="nav.spa">SPA centrs</a>
+      <a href="#hall" data-i18n="nav.hall">Lielā zāle</a>
+      <a href="#health" data-i18n="nav.health">Veselības centrs</a>
+      <a href="#contact" data-i18n="nav.contact">Kontakti</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button data-lang="lv" aria-pressed="true">LV</button>
+        <button data-lang="en" aria-pressed="false">EN</button>
+        <button data-lang="ru" aria-pressed="false">RU</button>
+      </div>
+      <button class="icon-btn" id="themeToggle" aria-label="Dark mode" aria-pressed="false">
+        <svg viewBox="0 0 24 24" id="themeIcon"><use href="#ic-moon"/></svg>
+      </button>
+      <a class="btn btn-solid btn-sm" href="tel:+37125650512"><svg viewBox="0 0 24 24"><use href="#ic-phone"/></svg><span data-i18n="cta_book">Rezervēt</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><i></i><i></i><i></i></button>
+    </div>
+  </div>
+</header>
+
+<nav class="mobile-nav" id="mobileNav" aria-label="Mobile" aria-hidden="true">
+  <a class="m-link" style="--i:0" href="#spa" data-i18n="nav.spa">SPA centrs</a>
+  <a class="m-link" style="--i:1" href="#hall" data-i18n="nav.hall">Lielā zāle</a>
+  <a class="m-link" style="--i:2" href="#health" data-i18n="nav.health">Veselības centrs</a>
+  <a class="m-link" style="--i:3" href="#contact" data-i18n="nav.contact">Kontakti</a>
+  <div class="m-extra" style="--i:4">
+    <div class="lang-switch" role="group" aria-label="Language" style="display:flex;">
+      <button data-lang="lv" aria-pressed="true">LV</button>
+      <button data-lang="en" aria-pressed="false">EN</button>
+      <button data-lang="ru" aria-pressed="false">RU</button>
+    </div>
+    <a class="btn btn-solid btn-sm" href="tel:+37125650512"><svg viewBox="0 0 24 24"><use href="#ic-phone"/></svg><span data-i18n="cta_book">Rezervēt</span></a>
+  </div>
+  <p class="m-contact"><a href="tel:+37125650512">+371 25 650 512</a> &nbsp;|&nbsp; Rīgas iela 1B, Rēzekne</p>
+</nav>
+
+<main id="main">
+
+  <section class="hero">
+    <video class="hero-video" id="heroVideo" autoplay muted loop playsinline preload="auto" poster="https://assets.mixkit.co/videos/4641/4641-thumb-720-0.jpg">
+      <source src="https://assets.mixkit.co/videos/4641/4641-720.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="wrap">
+      <div class="hero-copy">
+        <span class="kicker"><svg viewBox="0 0 24 24"><use href="#ic-paw"/></svg><span data-i18n="hero_kicker">Rīgas iela 1B · Rēzeknes centrs</span></span>
+        <h1><span data-i18n="hero_t1">Atpūties kā</span> <em data-i18n="hero_t2">slinks lācis</em></h1>
+        <p class="lede" data-i18n="hero_lede">SPA ar baseinu un saunām atpūtai un svinībām, lielā zāle pasākumiem un veselības centrs ar telpām ārstiem, fizioterapeitiem un kosmetologiem.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-solid" href="tel:+37125650512"><svg viewBox="0 0 24 24"><use href="#ic-phone"/></svg><span data-i18n="cta_book_num">Rezervēt: 25 650 512</span></a>
+          <a class="btn btn-line" href="#spa"><span data-i18n="cta_spa">Apskatīt SPA</span><svg viewBox="0 0 24 24"><use href="#ic-arrow"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <button class="hero-pause" id="heroPause" aria-label="Pause background video" aria-pressed="false">
+      <svg viewBox="0 0 24 24" id="heroPauseIcon"><use href="#ic-pause"/></svg>
+    </button>
+  </section>
+
+  <div class="strip">
+    <div class="wrap">
+      <span class="s-item"><span class="s-ic"><svg viewBox="0 0 24 24"><use href="#ic-pool"/></svg></span><span data-i18n="st1">Baseins</span></span>
+      <span class="s-item"><span class="s-ic"><svg viewBox="0 0 24 24"><use href="#ic-sauna"/></svg></span><span data-i18n="st2">Divas saunas</span></span>
+      <span class="s-item"><span class="s-ic"><svg viewBox="0 0 24 24"><use href="#ic-ir"/></svg></span><span data-i18n="st3">Infrasarkanā pirts</span></span>
+      <span class="s-item"><span class="s-ic"><svg viewBox="0 0 24 24"><use href="#ic-guests"/></svg></span><span data-i18n="st4">10-15 viesiem</span></span>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker"><svg viewBox="0 0 24 24"><use href="#ic-paw"/></svg><span data-i18n="sp_kicker">Lazy Bear Club</span></span>
+        <h2><span data-i18n="sp_t1">Viena ēka,</span> <em data-i18n="sp_t2">trīs iespējas</em></h2>
+        <p data-i18n="sp_sub">Pašā Rēzeknes pilsētas centrā, Rīgas ielā 1B. Atpūta, pasākumi un veselības aprūpe vienuviet.</p>
+      </div>
+      <div class="spaces">
+        <a class="space reveal" href="#spa"><span class="no">01</span><span class="space-ic"><svg viewBox="0 0 24 24"><use href="#ic-pool"/></svg></span><h3 data-i18n="c1_t">SPA centrs</h3><p data-i18n="c1_d">Baseins, divas saunas, infrasarkanā pirts un atpūtas zona 10-15 viesiem. Atpūtai un svinībām.</p><span class="more"><span data-i18n="more">Uzzināt vairāk</span><svg viewBox="0 0 24 24"><use href="#ic-arrow"/></svg></span></a>
+        <a class="space reveal" href="#hall"><span class="no">02</span><span class="space-ic"><svg viewBox="0 0 24 24"><use href="#ic-hall"/></svg></span><h3 data-i18n="c2_t">Lielā zāle</h3><p data-i18n="c2_d">Zāle konferencēm un citiem pasākumiem Rēzeknes centrā.</p><span class="more"><span data-i18n="more">Uzzināt vairāk</span><svg viewBox="0 0 24 24"><use href="#ic-arrow"/></svg></span></a>
+        <a class="space reveal" href="#health"><span class="no">03</span><span class="space-ic"><svg viewBox="0 0 24 24"><use href="#ic-health"/></svg></span><h3 data-i18n="c3_t">Veselības centrs</h3><p data-i18n="c3_d">Izīrējam telpas ārstiem, fizioterapeitiem un kosmetologiem.</p><span class="more"><span data-i18n="more">Uzzināt vairāk</span><svg viewBox="0 0 24 24"><use href="#ic-arrow"/></svg></span></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="spa" class="panel">
+    <div class="wrap spa">
+      <div class="reveal">
+        <span class="kicker"><svg viewBox="0 0 24 24"><use href="#ic-paw"/></svg><span data-i18n="spa_kicker">SPA centrs</span></span>
+        <h2 class="big-title"><span data-i18n="spa_t1">Labsajūtai ir svarīga</span> <em data-i18n="spa_t2">lieliska atpūta</em></h2>
+        <p class="text" data-i18n="spa_p">Lazy Bear Club piedāvā SPA centru ar baseinu, divām saunām, infrasarkano pirti un atpūtas zonu 10-15 viesiem pašā Rēzeknes pilsētas centrā.</p>
+        <ul class="occ"><li data-i18n="o1">Atpūta ar draugiem</li><li data-i18n="o2">Dzimšanas dienas</li><li data-i18n="o3">Svinības</li></ul>
+        <div class="amen">
+          <div class="am"><svg viewBox="0 0 24 24"><use href="#ic-pool"/></svg><h3 data-i18n="a1_t">Baseins</h3><p data-i18n="a1_d">Atsvaidzinoša peldēšanās starp pirts reizēm.</p></div>
+          <div class="am"><svg viewBox="0 0 24 24"><use href="#ic-sauna"/></svg><h3 data-i18n="a2_t">Divas saunas</h3><p data-i18n="a2_d">Īsts siltums pilnīgai atslodzei.</p></div>
+          <div class="am"><svg viewBox="0 0 24 24"><use href="#ic-ir"/></svg><h3 data-i18n="a3_t">Infrasarkanā pirts</h3><p data-i18n="a3_d">Maigs siltums, kas sasilda visu ķermeni.</p></div>
+          <div class="am"><svg viewBox="0 0 24 24"><use href="#ic-guests"/></svg><h3 data-i18n="a4_t">Atpūtas zona</h3><p data-i18n="a4_d">Vieta 10-15 viesiem sarunām un svinībām.</p></div>
+        </div>
+      </div>
+      <div class="book reveal">
+        <svg class="bear-wm" viewBox="0 0 24 24" aria-hidden="true"><use href="#bear-head"/></svg>
+        <span class="kicker" data-i18n="book_kicker">Rezervācija</span>
+        <h3 data-i18n="book_t">Rezervējiet savu atpūtas vakaru</h3>
+        <a class="num" href="tel:+37125650512">25 650 512</a>
+        <p data-i18n="book_p">Zvaniet, lai uzzinātu brīvos laikus, cenas un rezervētu SPA sev un draugiem.</p>
+        <div class="btn-row">
+          <a class="btn btn-solid" href="tel:+37125650512"><svg viewBox="0 0 24 24"><use href="#ic-phone"/></svg><span data-i18n="cta_call">Zvanīt</span></a>
+          <a class="btn btn-line" href="https://www.facebook.com/Lazy-Bear-Club-350605192328575" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><use href="#ic-fb"/></svg><span>Facebook</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="hall">
+    <div class="wrap hall">
+      <div class="hall-art reveal" aria-hidden="true">
+        <span class="tag" data-i18n="hall_tag">Lielā zāle</span>
+        <svg viewBox="0 0 320 220">
+          <rect x="70" y="20" width="180" height="96" rx="8" fill="none" stroke="currentColor" stroke-width="3"/>
+          <path d="M96 88l36-34 26 24 22-18 44 28" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M160 116v18" stroke="currentColor" stroke-width="3"/>
+          <g fill="currentColor" opacity=".9">
+            <circle cx="70" cy="160" r="9"/><circle cx="110" cy="160" r="9"/><circle cx="150" cy="160" r="9"/><circle cx="190" cy="160" r="9"/><circle cx="230" cy="160" r="9"/><circle cx="270" cy="160" r="9"/>
+            <circle cx="50" cy="196" r="9"/><circle cx="90" cy="196" r="9"/><circle cx="130" cy="196" r="9"/><circle cx="170" cy="196" r="9"/><circle cx="210" cy="196" r="9"/><circle cx="250" cy="196" r="9"/><circle cx="290" cy="196" r="9"/>
+          </g>
+        </svg>
+      </div>
+      <div class="reveal">
+        <span class="kicker"><svg viewBox="0 0 24 24"><use href="#ic-paw"/></svg><span data-i18n="hall_kicker">Lielā zāle</span></span>
+        <h2 class="big-title"><span data-i18n="hall_t1">Zāle konferencēm un</span> <em data-i18n="hall_t2">pasākumiem</em></h2>
+        <p class="text" data-i18n="hall_p">Lazy Bear Club piedāvā lielo zāli konferencēm un citiem pasākumiem pašā Rēzeknes pilsētas centrā, Rīgas ielā 1B.</p>
+        <ul class="occ"><li data-i18n="h1">Konferences</li><li data-i18n="h2">Semināri</li><li data-i18n="h3">Pasākumi</li></ul>
+        <div class="health-cta">
+          <a class="btn btn-solid" href="tel:+37125650512"><svg viewBox="0 0 24 24"><use href="#ic-phone"/></svg><span data-i18n="hall_btn">Rezervēt zāli</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="health" class="panel">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker"><svg viewBox="0 0 24 24"><use href="#ic-paw"/></svg><span data-i18n="he_kicker">Veselības centrs</span></span>
+        <h2><span data-i18n="he_t1">Telpas veselības</span> <em data-i18n="he_t2">speciālistiem</em></h2>
+        <p data-i18n="he_p">Lazy Bear veselības centrs Rēzeknes centrā ir iekārtots saskaņā ar MK noteikumiem par medicīnas pakalpojumu sniegšanu. Izīrējam kabinetus speciālistiem.</p>
+        <ul class="who">
+          <li><svg viewBox="0 0 24 24"><use href="#ic-check"/></svg><span data-i18n="w1">Ārstiem</span></li>
+          <li><svg viewBox="0 0 24 24"><use href="#ic-check"/></svg><span data-i18n="w2">Fizioterapeitiem</span></li>
+          <li><svg viewBox="0 0 24 24"><use href="#ic-check"/></svg><span data-i18n="w3">Kosmetologiem</span></li>
+        </ul>
+      </div>
+      <div class="specs">
+        <div class="spec reveal"><b>12-30 m²</b><span data-i18n="sp1">kabinetu platība</span></div>
+        <div class="spec reveal"><b>200 m²</b><span data-i18n="sp2">trešais stāvs</span></div>
+        <div class="spec reveal"><b>500 m²</b><span data-i18n="sp3">stāvvieta pie ēkas</span></div>
+        <div class="spec reveal"><b>20 m</b><span data-i18n="sp4">līdz sabiedriskā transporta pieturai</span></div>
+      </div>
+      <ul class="feat-list reveal">
+        <li><svg viewBox="0 0 24 24"><use href="#ic-check"/></svg><span data-i18n="fl1">Vides pieejamība: automātiskās durvis, elektriskais pacēlājs, plašas durvis un koridori</span></li>
+        <li><svg viewBox="0 0 24 24"><use href="#ic-check"/></svg><span data-i18n="fl2">Sanmezgli cilvēkiem ar invaliditāti 1. un 2. stāvā ar speciālu santehniku</span></li>
+        <li><svg viewBox="0 0 24 24"><use href="#ic-check"/></svg><span data-i18n="fl3">Ūdensvads un kanalizācija visos kabinetos</span></li>
+        <li><svg viewBox="0 0 24 24"><use href="#ic-check"/></svg><span data-i18n="fl4">Grīdas segums medicīnas iestādēm: flīzes un speciāls linolejs</span></li>
+        <li><svg viewBox="0 0 24 24"><use href="#ic-check"/></svg><span data-i18n="fl5">Atsevišķas ventilācijas un rekuperācijas sistēmas 1. un 2./3. stāvam</span></li>
+        <li><svg viewBox="0 0 24 24"><use href="#ic-check"/></svg><span data-i18n="fl6">Pilsētas komunikācijas, vietējā apkure ar iespēju pieslēgties pilsētas siltumam</span></li>
+        <li><svg viewBox="0 0 24 24"><use href="#ic-check"/></svg><span data-i18n="fl7">Kvalitatīva dizainera apdare</span></li>
+        <li><svg viewBox="0 0 24 24"><use href="#ic-check"/></svg><span data-i18n="fl8">Ēkas lietošanas kods 1264 (veselības aprūpes ēka)</span></li>
+      </ul>
+      <div class="health-cta reveal">
+        <a class="btn btn-solid" href="tel:+37125650512"><svg viewBox="0 0 24 24"><use href="#ic-phone"/></svg><span data-i18n="he_btn">Uzzināt par nomu</span></a>
+        <span class="text" style="margin:0" data-i18n="he_note">Zvaniet: +371 25 650 512</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap contact-grid">
+      <div class="reveal">
+        <span class="kicker"><svg viewBox="0 0 24 24"><use href="#ic-paw"/></svg><span data-i18n="con_kicker">Kontakti</span></span>
+        <h2 class="big-title"><span data-i18n="con_t1">Gaidīsim jūs</span> <em data-i18n="con_t2">Rēzeknes centrā</em></h2>
+        <div class="info-list">
+          <div class="info-item"><span class="label" data-i18n="lbl_addr">Adrese</span><span class="value">Rīgas iela 1B, Rēzekne, LV-4601, <span data-i18n="country">Latvija</span></span></div>
+          <div class="info-item"><span class="label" data-i18n="lbl_tel">Tālrunis</span><span class="value"><a href="tel:+37125650512">+371 25 650 512</a></span></div>
+          <div class="info-item"><span class="label">Facebook</span><span class="value"><a href="https://www.facebook.com/Lazy-Bear-Club-350605192328575" target="_blank" rel="noopener">Lazy Bear Club</a></span></div>
+          <div class="info-item"><span class="label">Instagram</span><span class="value"><a href="https://www.instagram.com/_lazybearclub_/" target="_blank" rel="noopener">@_lazybearclub_</a></span></div>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn-solid" href="tel:+37125650512"><svg viewBox="0 0 24 24"><use href="#ic-phone"/></svg><span data-i18n="cta_call">Zvanīt</span></a>
+          <a class="btn btn-line" href="https://www.instagram.com/_lazybearclub_/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><use href="#ic-ig"/></svg><span>Instagram</span></a>
+        </div>
+      </div>
+      <div class="map-card reveal">
+        <div class="map-art" aria-hidden="true">
+          <svg class="streets" viewBox="0 0 400 260" preserveAspectRatio="xMidYMid slice">
+            <g fill="none" stroke="currentColor" stroke-opacity=".12" stroke-width="12" stroke-linecap="round"><path d="M-20 150 L420 120"/><path d="M90 -20 L140 290"/><path d="M270 -20 L300 290"/><path d="M-20 50 L420 30"/></g>
+            <g fill="none" stroke="currentColor" stroke-opacity=".07" stroke-width="5"><path d="M190 -20 L205 290"/><path d="M-20 215 L420 185"/><path d="M350 -20 L380 290"/></g>
+          </svg>
+          <span class="map-pin"><svg viewBox="0 0 24 24"><use href="#ic-paw"/></svg></span>
+        </div>
+        <div class="map-body">
+          <div><h3>Rīgas iela 1B</h3><p>Rēzekne, LV-4601</p></div>
+          <a class="btn btn-solid btn-sm" href="https://www.google.com/maps/search/?api=1&amp;query=R%C4%ABgas+iela+1B+R%C4%93zekne" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><use href="#ic-pin"/></svg><span data-i18n="btn_map">Atvērt kartē</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-main">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#home" aria-label="Lazy Bear Club"><img src="logo.svg" alt="Lazy Bear Club" class="brand-logo" width="217" height="72"></a>
+        <p data-i18n="footer_tag">SPA, lielā zāle un veselības centrs Rēzeknes centrā, Rīgas ielā 1B.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4 data-i18n="footer_nav">Sadaļas</h4>
+          <a href="#spa" data-i18n="nav.spa">SPA centrs</a>
+          <a href="#hall" data-i18n="nav.hall">Lielā zāle</a>
+          <a href="#health" data-i18n="nav.health">Veselības centrs</a>
+        </div>
+        <div>
+          <h4 data-i18n="nav.contact">Kontakti</h4>
+          <a href="tel:+37125650512">+371 25 650 512</a>
+          <a href="https://www.facebook.com/Lazy-Bear-Club-350605192328575" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://www.instagram.com/_lazybearclub_/" target="_blank" rel="noopener">Instagram</a>
+          <span>Rīgas iela 1B, Rēzekne</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="yr">2026</span> Lazy Bear Club. <span data-i18n="footer_rights">Visas tiesības aizsargātas.</span></span>
+      <div class="footer-lang" role="group" aria-label="Language">
+        <button data-lang="lv" aria-pressed="true">LV</button>
+        <button data-lang="en" aria-pressed="false">EN</button>
+        <button data-lang="ru" aria-pressed="false">RU</button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var T = {
+    lv: {
+      skip:"Pāriet uz saturu",
+      "nav.spa":"SPA centrs","nav.hall":"Lielā zāle","nav.health":"Veselības centrs","nav.contact":"Kontakti",
+      cta_book:"Rezervēt", cta_book_num:"Rezervēt: 25 650 512", cta_spa:"Apskatīt SPA", cta_call:"Zvanīt", more:"Uzzināt vairāk",
+      theme_dark:"Tumšais režīms", theme_light:"Gaišais režīms", menu_open:"Atvērt izvēlni", menu_close:"Aizvērt izvēlni",
+      video_pause:"Apturēt fona video", video_play:"Atskaņot fona video",
+      hero_kicker:"Rīgas iela 1B · Rēzeknes centrs", hero_t1:"Atpūties kā", hero_t2:"slinks lācis",
+      hero_lede:"SPA ar baseinu un saunām atpūtai un svinībām, lielā zāle pasākumiem un veselības centrs ar telpām ārstiem, fizioterapeitiem un kosmetologiem.",
+      st1:"Baseins", st2:"Divas saunas", st3:"Infrasarkanā pirts", st4:"10-15 viesiem",
+      sp_kicker:"Lazy Bear Club", sp_t1:"Viena ēka,", sp_t2:"trīs iespējas",
+      sp_sub:"Pašā Rēzeknes pilsētas centrā, Rīgas ielā 1B. Atpūta, pasākumi un veselības aprūpe vienuviet.",
+      c1_t:"SPA centrs", c1_d:"Baseins, divas saunas, infrasarkanā pirts un atpūtas zona 10-15 viesiem. Atpūtai un svinībām.",
+      c2_t:"Lielā zāle", c2_d:"Zāle konferencēm un citiem pasākumiem Rēzeknes centrā.",
+      c3_t:"Veselības centrs", c3_d:"Izīrējam telpas ārstiem, fizioterapeitiem un kosmetologiem.",
+      spa_kicker:"SPA centrs", spa_t1:"Labsajūtai ir svarīga", spa_t2:"lieliska atpūta",
+      spa_p:"Lazy Bear Club piedāvā SPA centru ar baseinu, divām saunām, infrasarkano pirti un atpūtas zonu 10-15 viesiem pašā Rēzeknes pilsētas centrā.",
+      o1:"Atpūta ar draugiem", o2:"Dzimšanas dienas", o3:"Svinības",
+      a1_t:"Baseins", a1_d:"Atsvaidzinoša peldēšanās starp pirts reizēm.",
+      a2_t:"Divas saunas", a2_d:"Īsts siltums pilnīgai atslodzei.",
+      a3_t:"Infrasarkanā pirts", a3_d:"Maigs siltums, kas sasilda visu ķermeni.",
+      a4_t:"Atpūtas zona", a4_d:"Vieta 10-15 viesiem sarunām un svinībām.",
+      book_kicker:"Rezervācija", book_t:"Rezervējiet savu atpūtas vakaru",
+      book_p:"Zvaniet, lai uzzinātu brīvos laikus, cenas un rezervētu SPA sev un draugiem.",
+      hall_tag:"Lielā zāle", hall_kicker:"Lielā zāle", hall_t1:"Zāle konferencēm un", hall_t2:"pasākumiem",
+      hall_p:"Lazy Bear Club piedāvā lielo zāli konferencēm un citiem pasākumiem pašā Rēzeknes pilsētas centrā, Rīgas ielā 1B.",
+      h1:"Konferences", h2:"Semināri", h3:"Pasākumi", hall_btn:"Rezervēt zāli",
+      he_kicker:"Veselības centrs", he_t1:"Telpas veselības", he_t2:"speciālistiem",
+      he_p:"Lazy Bear veselības centrs Rēzeknes centrā ir iekārtots saskaņā ar MK noteikumiem par medicīnas pakalpojumu sniegšanu. Izīrējam kabinetus speciālistiem.",
+      w1:"Ārstiem", w2:"Fizioterapeitiem", w3:"Kosmetologiem",
+      sp1:"kabinetu platība", sp2:"trešais stāvs", sp3:"stāvvieta pie ēkas", sp4:"līdz sabiedriskā transporta pieturai",
+      fl1:"Vides pieejamība: automātiskās durvis, elektriskais pacēlājs, plašas durvis un koridori",
+      fl2:"Sanmezgli cilvēkiem ar invaliditāti 1. un 2. stāvā ar speciālu santehniku",
+      fl3:"Ūdensvads un kanalizācija visos kabinetos",
+      fl4:"Grīdas segums medicīnas iestādēm: flīzes un speciāls linolejs",
+      fl5:"Atsevišķas ventilācijas un rekuperācijas sistēmas 1. un 2./3. stāvam",
+      fl6:"Pilsētas komunikācijas, vietējā apkure ar iespēju pieslēgties pilsētas siltumam",
+      fl7:"Kvalitatīva dizainera apdare",
+      fl8:"Ēkas lietošanas kods 1264 (veselības aprūpes ēka)",
+      he_btn:"Uzzināt par nomu", he_note:"Zvaniet: +371 25 650 512",
+      con_kicker:"Kontakti", con_t1:"Gaidīsim jūs", con_t2:"Rēzeknes centrā",
+      lbl_addr:"Adrese", lbl_tel:"Tālrunis", country:"Latvija", btn_map:"Atvērt kartē",
+      footer_tag:"SPA, lielā zāle un veselības centrs Rēzeknes centrā, Rīgas ielā 1B.", footer_nav:"Sadaļas", footer_rights:"Visas tiesības aizsargātas.",
+      page_title:"Lazy Bear Club - SPA, lielā zāle un veselības centrs, Rēzekne"
+    },
+    en: {
+      skip:"Skip to content",
+      "nav.spa":"SPA","nav.hall":"Event hall","nav.health":"Health centre","nav.contact":"Contact",
+      cta_book:"Book", cta_book_num:"Book: 25 650 512", cta_spa:"See the SPA", cta_call:"Call", more:"Learn more",
+      theme_dark:"Dark mode", theme_light:"Light mode", menu_open:"Open menu", menu_close:"Close menu",
+      video_pause:"Pause background video", video_play:"Play background video",
+      hero_kicker:"Rīgas iela 1B · Rēzekne centre", hero_t1:"Relax like a", hero_t2:"lazy bear",
+      hero_lede:"A SPA with a pool and saunas for relaxing and celebrations, a large hall for events, and a health centre with rooms for doctors, physiotherapists and cosmetologists.",
+      st1:"Pool", st2:"Two saunas", st3:"Infrared sauna", st4:"For 10-15 guests",
+      sp_kicker:"Lazy Bear Club", sp_t1:"One building,", sp_t2:"three options",
+      sp_sub:"Right in the centre of Rēzekne, at Rīgas iela 1B. Relaxation, events and healthcare in one place.",
+      c1_t:"SPA", c1_d:"A pool, two saunas, an infrared sauna and a lounge for 10-15 guests. For relaxing and celebrations.",
+      c2_t:"Event hall", c2_d:"A hall for conferences and other events in central Rēzekne.",
+      c3_t:"Health centre", c3_d:"Rooms for rent for doctors, physiotherapists and cosmetologists.",
+      spa_kicker:"SPA", spa_t1:"Feeling good starts with", spa_t2:"proper rest",
+      spa_p:"Lazy Bear Club offers a SPA with a pool, two saunas, an infrared sauna and a lounge for 10-15 guests, right in the centre of Rēzekne.",
+      o1:"Time with friends", o2:"Birthdays", o3:"Celebrations",
+      a1_t:"Pool", a1_d:"A refreshing swim between sauna sessions.",
+      a2_t:"Two saunas", a2_d:"Real heat for complete relaxation.",
+      a3_t:"Infrared sauna", a3_d:"Gentle warmth that heats the whole body.",
+      a4_t:"Lounge", a4_d:"Space for 10-15 guests to talk and celebrate.",
+      book_kicker:"Booking", book_t:"Book your evening of rest",
+      book_p:"Call to check free times and prices and to book the SPA for you and your friends.",
+      hall_tag:"Event hall", hall_kicker:"Event hall", hall_t1:"A hall for conferences and", hall_t2:"events",
+      hall_p:"Lazy Bear Club offers a large hall for conferences and other events, right in the centre of Rēzekne at Rīgas iela 1B.",
+      h1:"Conferences", h2:"Seminars", h3:"Events", hall_btn:"Book the hall",
+      he_kicker:"Health centre", he_t1:"Rooms for health", he_t2:"professionals",
+      he_p:"The Lazy Bear health centre in central Rēzekne is fitted out in line with the Latvian Cabinet regulations for medical services. We rent rooms to specialists.",
+      w1:"Doctors", w2:"Physiotherapists", w3:"Cosmetologists",
+      sp1:"room size", sp2:"third floor", sp3:"parking next to the building", sp4:"to the public transport stop",
+      fl1:"Accessibility: automatic doors, electric lift, wide doors and corridors",
+      fl2:"Accessible toilets on the 1st and 2nd floors with special fittings",
+      fl3:"Water supply and drainage in every room",
+      fl4:"Medical-grade flooring: tiles and special linoleum",
+      fl5:"Separate ventilation and heat recovery systems for the 1st and 2nd/3rd floors",
+      fl6:"City utilities, local heating with the option to connect to city heating",
+      fl7:"High-quality designer finish",
+      fl8:"Building use code 1264 (healthcare building)",
+      he_btn:"Ask about renting", he_note:"Call: +371 25 650 512",
+      con_kicker:"Contact", con_t1:"See you in", con_t2:"central Rēzekne",
+      lbl_addr:"Address", lbl_tel:"Phone", country:"Latvia", btn_map:"Open in Maps",
+      footer_tag:"SPA, event hall and health centre in central Rēzekne, Rīgas iela 1B.", footer_nav:"Sections", footer_rights:"All rights reserved.",
+      page_title:"Lazy Bear Club - SPA, event hall and health centre, Rēzekne"
+    },
+    ru: {
+      skip:"К содержанию",
+      "nav.spa":"SPA-центр","nav.hall":"Большой зал","nav.health":"Центр здоровья","nav.contact":"Контакты",
+      cta_book:"Забронировать", cta_book_num:"Бронь: 25 650 512", cta_spa:"Смотреть SPA", cta_call:"Позвонить", more:"Подробнее",
+      theme_dark:"Тёмная тема", theme_light:"Светлая тема", menu_open:"Открыть меню", menu_close:"Закрыть меню",
+      video_pause:"Остановить фоновое видео", video_play:"Воспроизвести фоновое видео",
+      hero_kicker:"Ул. Ригас 1B · центр Резекне", hero_t1:"Отдыхайте, как", hero_t2:"ленивый медведь",
+      hero_lede:"SPA с бассейном и саунами для отдыха и праздников, большой зал для мероприятий и центр здоровья с помещениями для врачей, физиотерапевтов и косметологов.",
+      st1:"Бассейн", st2:"Две сауны", st3:"Инфракрасная сауна", st4:"На 10-15 гостей",
+      sp_kicker:"Lazy Bear Club", sp_t1:"Одно здание,", sp_t2:"три возможности",
+      sp_sub:"В самом центре Резекне, на улице Ригас 1B. Отдых, мероприятия и здоровье в одном месте.",
+      c1_t:"SPA-центр", c1_d:"Бассейн, две сауны, инфракрасная сауна и зона отдыха на 10-15 гостей. Для отдыха и праздников.",
+      c2_t:"Большой зал", c2_d:"Зал для конференций и других мероприятий в центре Резекне.",
+      c3_t:"Центр здоровья", c3_d:"Сдаём помещения врачам, физиотерапевтам и косметологам.",
+      spa_kicker:"SPA-центр", spa_t1:"Для хорошего самочувствия важен", spa_t2:"отличный отдых",
+      spa_p:"Lazy Bear Club предлагает SPA-центр с бассейном, двумя саунами, инфракрасной сауной и зоной отдыха на 10-15 гостей в самом центре Резекне.",
+      o1:"Отдых с друзьями", o2:"Дни рождения", o3:"Праздники",
+      a1_t:"Бассейн", a1_d:"Освежающее купание между заходами в сауну.",
+      a2_t:"Две сауны", a2_d:"Настоящий жар для полного расслабления.",
+      a3_t:"Инфракрасная сауна", a3_d:"Мягкое тепло, которое прогревает всё тело.",
+      a4_t:"Зона отдыха", a4_d:"Место для 10-15 гостей для общения и праздника.",
+      book_kicker:"Бронирование", book_t:"Забронируйте свой вечер отдыха",
+      book_p:"Позвоните, чтобы узнать свободное время и цены и забронировать SPA для себя и друзей.",
+      hall_tag:"Большой зал", hall_kicker:"Большой зал", hall_t1:"Зал для конференций и", hall_t2:"мероприятий",
+      hall_p:"Lazy Bear Club предлагает большой зал для конференций и других мероприятий в самом центре Резекне, на улице Ригас 1B.",
+      h1:"Конференции", h2:"Семинары", h3:"Мероприятия", hall_btn:"Забронировать зал",
+      he_kicker:"Центр здоровья", he_t1:"Помещения для", he_t2:"специалистов",
+      he_p:"Центр здоровья Lazy Bear в центре Резекне оборудован в соответствии с правилами Кабинета министров об оказании медицинских услуг. Сдаём кабинеты специалистам.",
+      w1:"Врачам", w2:"Физиотерапевтам", w3:"Косметологам",
+      sp1:"площадь кабинетов", sp2:"третий этаж", sp3:"парковка у здания", sp4:"до остановки общественного транспорта",
+      fl1:"Доступная среда: автоматические двери, электрический подъёмник, широкие двери и коридоры",
+      fl2:"Санузлы для людей с инвалидностью на 1-м и 2-м этажах со специальной сантехникой",
+      fl3:"Водопровод и канализация во всех кабинетах",
+      fl4:"Покрытие пола для медучреждений: плитка и специальный линолеум",
+      fl5:"Отдельные системы вентиляции и рекуперации для 1-го и 2-го/3-го этажей",
+      fl6:"Городские коммуникации, местное отопление с возможностью подключения к городскому",
+      fl7:"Качественная дизайнерская отделка",
+      fl8:"Код использования здания 1264 (здание здравоохранения)",
+      he_btn:"Узнать об аренде", he_note:"Звоните: +371 25 650 512",
+      con_kicker:"Контакты", con_t1:"Ждём вас", con_t2:"в центре Резекне",
+      lbl_addr:"Адрес", lbl_tel:"Телефон", country:"Латвия", btn_map:"Открыть на карте",
+      footer_tag:"SPA, большой зал и центр здоровья в центре Резекне, ул. Ригас 1B.", footer_nav:"Разделы", footer_rights:"Все права защищены.",
+      page_title:"Lazy Bear Club - SPA, большой зал и центр здоровья, Резекне"
+    }
+  };
+
+  var htmlEl = document.documentElement;
+  var currentLang = 'lv';
+  var pageTitleEl = document.getElementById('pageTitle');
+
+  function getTheme(){ return htmlEl.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'; }
+
+  function refreshLabels(){
+    var d = T[currentLang];
+    var theme = getTheme();
+    var tt = document.getElementById('themeToggle');
+    tt.setAttribute('aria-label', theme === 'dark' ? d.theme_light : d.theme_dark);
+    tt.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
+    document.getElementById('themeIcon').innerHTML = '<use href="' + (theme === 'dark' ? '#ic-sun' : '#ic-moon') + '"></use>';
+    var mt = document.getElementById('menuToggle');
+    mt.setAttribute('aria-label', mt.getAttribute('aria-expanded') === 'true' ? d.menu_close : d.menu_open);
+    var vid = document.getElementById('heroVideo');
+    document.getElementById('heroPause').setAttribute('aria-label', vid.paused ? d.video_play : d.video_pause);
+  }
+
+  function applyLang(lang){
+    if(!T[lang]) lang = 'lv';
+    currentLang = lang;
+    var d = T[lang];
+    document.querySelectorAll('[data-i18n]').forEach(function(el){
+      var k = el.getAttribute('data-i18n');
+      if(d[k] !== undefined) el.textContent = d[k];
+    });
+    document.querySelectorAll('[data-lang]').forEach(function(b){
+      b.setAttribute('aria-pressed', b.getAttribute('data-lang') === lang ? 'true' : 'false');
+    });
+    htmlEl.setAttribute('lang', lang);
+    if(pageTitleEl) pageTitleEl.textContent = d.page_title;
+    try{ localStorage.setItem('lbc-lang', lang); }catch(e){}
+    refreshLabels();
+  }
+
+  document.querySelectorAll('[data-lang]').forEach(function(b){
+    b.addEventListener('click', function(){ applyLang(b.getAttribute('data-lang')); });
+  });
+
+  document.getElementById('themeToggle').addEventListener('click', function(){
+    var next = getTheme() === 'dark' ? 'light' : 'dark';
+    htmlEl.setAttribute('data-theme', next);
+    try{ localStorage.setItem('lbc-theme', next); }catch(e){}
+    refreshLabels();
+  });
+
+  var menuToggle = document.getElementById('menuToggle');
+  var mobileNav = document.getElementById('mobileNav');
+  function setMenu(open){
+    mobileNav.classList.toggle('open', open);
+    mobileNav.setAttribute('aria-hidden', open ? 'false' : 'true');
+    menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.body.style.overflow = open ? 'hidden' : '';
+    refreshLabels();
+  }
+  menuToggle.addEventListener('click', function(){ setMenu(!mobileNav.classList.contains('open')); });
+  mobileNav.querySelectorAll('a').forEach(function(a){ a.addEventListener('click', function(){ setMenu(false); }); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape' && mobileNav.classList.contains('open')) setMenu(false); });
+  window.addEventListener('resize', function(){ if(window.innerWidth >= 1024 && mobileNav.classList.contains('open')) setMenu(false); });
+
+  var vid = document.getElementById('heroVideo');
+  var pauseBtn = document.getElementById('heroPause');
+  var pauseIcon = document.getElementById('heroPauseIcon');
+  function setPauseIcon(){ pauseIcon.innerHTML = '<use href="' + (vid.paused ? '#ic-play' : '#ic-pause') + '"></use>'; pauseBtn.setAttribute('aria-pressed', vid.paused ? 'true' : 'false'); refreshLabels(); }
+  if(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches){ try{ vid.pause(); }catch(e){} }
+  pauseBtn.addEventListener('click', function(){
+    if(vid.paused){ var p = vid.play(); if(p && p.catch) p.catch(function(){}); } else { vid.pause(); }
+    setPauseIcon();
+  });
+  vid.addEventListener('play', setPauseIcon);
+  vid.addEventListener('pause', setPauseIcon);
+
+  var revealEls = document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } });
+    }, {threshold:.12, rootMargin:'0px 0px -6% 0px'});
+    revealEls.forEach(function(el){ io.observe(el); });
+  } else {
+    revealEls.forEach(function(el){ el.classList.add('in'); });
+  }
+
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  var saved = 'lv';
+  try{ saved = localStorage.getItem('lbc-lang') || 'lv'; }catch(e){}
+  applyLang(saved);
+  setPauseIcon();
+})();
+</script>
+
+</body>
+</html>
